@@ -13,10 +13,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        //UI kit'i ayağa kaldırıyoruz bu ne demek burda sildmiş olduğumuz storyboardun yerine kendimize ekran tanımlıyoruz.
-        guard let windowScene = (scene as? UIWindowScene) else { return }
-        let window = UIWindow(windowScene:  windowScene)
-    }
+           guard let windowScene = (scene as? UIWindowScene) else { return }
+           window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+           window?.windowScene = windowScene
+       
+           let rootViewController = HomeViewController()
+           let navigationController = UINavigationController(rootViewController: rootViewController)
+           window?.rootViewController = navigationController
+           window?.makeKeyAndVisible()
+       }
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.

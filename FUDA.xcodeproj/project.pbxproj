@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB4A1D662BEFE8BB00154A4E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4A1D652BEFE8BB00154A4E /* HomeViewController.swift */; };
+		AB4A1D682BEFF63800154A4E /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4A1D672BEFF63800154A4E /* RecipeView.swift */; };
+		AB4A1D6A2BEFF68600154A4E /* FavoriteView .swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4A1D692BEFF68600154A4E /* FavoriteView .swift */; };
+		AB4A1D722BEFF6FB00154A4E /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4A1D712BEFF6FB00154A4E /* FavoriteViewController.swift */; };
+		AB4A1D742BEFF71A00154A4E /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4A1D732BEFF71A00154A4E /* RecipeViewController.swift */; };
+		AB4A1D772BEFF75300154A4E /* LockScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4A1D762BEFF75300154A4E /* LockScreenView.swift */; };
+		AB4A1D7A2BEFF77E00154A4E /* LockScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4A1D792BEFF77E00154A4E /* LockScreenController.swift */; };
 		AB88B84F2BEFE3EA00CC2A62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB88B84E2BEFE3EA00CC2A62 /* AppDelegate.swift */; };
 		AB88B8512BEFE3EA00CC2A62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB88B8502BEFE3EA00CC2A62 /* SceneDelegate.swift */; };
 		AB88B8532BEFE3EA00CC2A62 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB88B8522BEFE3EA00CC2A62 /* HomeView.swift */; };
@@ -15,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB4A1D652BEFE8BB00154A4E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AB4A1D672BEFF63800154A4E /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		AB4A1D692BEFF68600154A4E /* FavoriteView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoriteView .swift"; sourceTree = "<group>"; };
+		AB4A1D712BEFF6FB00154A4E /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		AB4A1D732BEFF71A00154A4E /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		AB4A1D762BEFF75300154A4E /* LockScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenView.swift; sourceTree = "<group>"; };
+		AB4A1D792BEFF77E00154A4E /* LockScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenController.swift; sourceTree = "<group>"; };
 		AB88B84B2BEFE3EA00CC2A62 /* FUDA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FUDA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB88B84E2BEFE3EA00CC2A62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB88B8502BEFE3EA00CC2A62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +49,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB4A1D632BEFE70200154A4E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB4A1D6B2BEFF6A400154A4E /* HomeView */,
+				AB4A1D752BEFF74500154A4E /* LocakScreenView */,
+				AB4A1D6D2BEFF6B800154A4E /* FavoriteView */,
+				AB4A1D6C2BEFF6AB00154A4E /* RecipeView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB4A1D642BEFE70800154A4E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB4A1D6E2BEFF6CD00154A4E /* HomeViewController */,
+				AB4A1D782BEFF76700154A4E /* LockScreenViewController */,
+				AB4A1D702BEFF6E500154A4E /* FavoriteViewController */,
+				AB4A1D6F2BEFF6D600154A4E /* RecipeViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AB4A1D6B2BEFF6A400154A4E /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				AB88B8522BEFE3EA00CC2A62 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		AB4A1D6C2BEFF6AB00154A4E /* RecipeView */ = {
+			isa = PBXGroup;
+			children = (
+				AB4A1D672BEFF63800154A4E /* RecipeView.swift */,
+			);
+			path = RecipeView;
+			sourceTree = "<group>";
+		};
+		AB4A1D6D2BEFF6B800154A4E /* FavoriteView */ = {
+			isa = PBXGroup;
+			children = (
+				AB4A1D692BEFF68600154A4E /* FavoriteView .swift */,
+			);
+			path = FavoriteView;
+			sourceTree = "<group>";
+		};
+		AB4A1D6E2BEFF6CD00154A4E /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AB4A1D652BEFE8BB00154A4E /* HomeViewController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		AB4A1D6F2BEFF6D600154A4E /* RecipeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AB4A1D732BEFF71A00154A4E /* RecipeViewController.swift */,
+			);
+			path = RecipeViewController;
+			sourceTree = "<group>";
+		};
+		AB4A1D702BEFF6E500154A4E /* FavoriteViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AB4A1D712BEFF6FB00154A4E /* FavoriteViewController.swift */,
+			);
+			path = FavoriteViewController;
+			sourceTree = "<group>";
+		};
+		AB4A1D752BEFF74500154A4E /* LocakScreenView */ = {
+			isa = PBXGroup;
+			children = (
+				AB4A1D762BEFF75300154A4E /* LockScreenView.swift */,
+			);
+			path = LocakScreenView;
+			sourceTree = "<group>";
+		};
+		AB4A1D782BEFF76700154A4E /* LockScreenViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AB4A1D792BEFF77E00154A4E /* LockScreenController.swift */,
+			);
+			path = LockScreenViewController;
+			sourceTree = "<group>";
+		};
 		AB88B8422BEFE3EA00CC2A62 = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +154,10 @@
 		AB88B84D2BEFE3EA00CC2A62 /* FUDA */ = {
 			isa = PBXGroup;
 			children = (
-				AB88B8632BEFE5B300CC2A62 /* Support */,
+				AB4A1D632BEFE70200154A4E /* Views */,
+				AB4A1D642BEFE70800154A4E /* Controllers */,
 				AB88B8622BEFE59A00CC2A62 /* SceneD and AppD */,
-				AB88B8522BEFE3EA00CC2A62 /* HomeView.swift */,
+				AB88B8632BEFE5B300CC2A62 /* Support */,
 				AB88B85C2BEFE3EB00CC2A62 /* Info.plist */,
 			);
 			path = FUDA;
@@ -161,6 +262,13 @@
 				AB88B8532BEFE3EA00CC2A62 /* HomeView.swift in Sources */,
 				AB88B84F2BEFE3EA00CC2A62 /* AppDelegate.swift in Sources */,
 				AB88B8512BEFE3EA00CC2A62 /* SceneDelegate.swift in Sources */,
+				AB4A1D722BEFF6FB00154A4E /* FavoriteViewController.swift in Sources */,
+				AB4A1D772BEFF75300154A4E /* LockScreenView.swift in Sources */,
+				AB4A1D742BEFF71A00154A4E /* RecipeViewController.swift in Sources */,
+				AB4A1D7A2BEFF77E00154A4E /* LockScreenController.swift in Sources */,
+				AB4A1D662BEFE8BB00154A4E /* HomeViewController.swift in Sources */,
+				AB4A1D682BEFF63800154A4E /* RecipeView.swift in Sources */,
+				AB4A1D6A2BEFF68600154A4E /* FavoriteView .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
